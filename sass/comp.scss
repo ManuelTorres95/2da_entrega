@@ -1,3 +1,4 @@
+@import "normalize";
 
 a {
     text-decoration: none;
@@ -63,13 +64,13 @@ footer {
     background-size: cover;
 }
 
-.home-text {
+.home-main .home-text {
     margin: 15px;
     font-family: 'Lobster';
     font-size: larger;
 }
 
-.text-box {
+.home-main .home-text .text-box {
     margin: 5px 50px;
     background-color: rgba(240, 240, 240, 0.377);
     border-radius: 25px;
