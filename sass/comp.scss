@@ -1,8 +1,8 @@
-@import "normalize";
 @import "index";
 @import "images";
 @import "music";
-
+@import "media";
+@import "normalize";
 a {
     text-decoration: none;
     color: rgb(255, 218, 138)
@@ -79,16 +79,6 @@ footer {
         "home-main"
         "home-text-2"
         "footer";
-}
-
-.img2 {
-    width: 250px;
-    height: 300px;
-}
-
-.img22 {
-    width: 250px;
-    height: 300px;
 }
 
 @media (min-width: 500px) {
