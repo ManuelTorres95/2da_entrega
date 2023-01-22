@@ -1,0 +1,53 @@
+.home-main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    line-height: 3;
+    grid-area: home-main;
+    background-image: url(../img/fondo-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-text {
+    margin: 15px;
+    font-family: 'Lobster';
+    font-size: larger;
+}
+
+.text-box {
+    margin: 5px 50px;
+    background-color: rgba(240, 240, 240, 0.377);
+    border-radius: 25px;
+}
+
+.txt {
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+}
+
+.home-text-2 {
+    grid-area: home-text-2;
+    width: 90%;
+    background-color: rgba(240, 248, 255, 0.24);
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lobster';
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.text-2-box {
+    margin: 1%;
+}
+
+.txt-2 {
+    font-size:larger;
+    font-family: 'Zen Dots';
+    line-height: 3;
+    border: solid beige;
+    border-radius: 20px;
+
+}

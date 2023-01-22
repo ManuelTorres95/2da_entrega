@@ -1,0 +1,28 @@
+.music-body {
+    gap: 1em;
+}
+
+.music-text {
+    background-color: rgba(240, 248, 255, 0.349);
+    border-radius: 20px;
+    margin: 10%;
+    padding: 8%;
+}
+
+.music-text-box {
+    padding: 5%;
+
+}
+
+.mus-info {
+    display: flex;
+    justify-content: center;
+    font-family: 'zen dots', cursive;
+    font-size: 16px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+
+.video {
+    width: auto;
+}

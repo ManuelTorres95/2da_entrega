@@ -1,4 +1,7 @@
 @import "normalize";
+@import "index";
+@import "images";
+@import "music";
 
 a {
     text-decoration: none;
@@ -46,62 +49,9 @@ footer {
 }
 
 .home-h1:hover {
-    transition: all;
+    transition-property: all;
     transition-duration: 2s;
-    font-family: 'Pacifico';
-    color: rgb(103, 205, 245);
-    font-size: 50px;
-}
-
-.home-main {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    line-height: 3;
-    grid-area: home-main;
-    background-image: url(../img/fondo-home.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.home-main .home-text {
-    margin: 15px;
-    font-family: 'Lobster';
-    font-size: larger;
-}
-
-.home-main .home-text .text-box {
-    margin: 5px 50px;
-    background-color: rgba(240, 240, 240, 0.377);
-    border-radius: 25px;
-}
-
-.txt {
-    display: flex;
-    justify-content: space-between;
-    font-size: medium;
-}
-
-.text-2-box {
-    padding: 20px;
-}
-
-.txt-2 {
-    font-size: xx-small;
-    font-family: 'Zen Dots';
-    line-height: 3;
-}
-
-.home-text-2 {
-    grid-area: home-text-2;
-    width: 300px;
-    background-color: rgba(240, 248, 255, 0.24);
-    display: flex;
-    flex-direction: row;
-    font-family: 'Lobster';
-    justify-content: space-between;
-    margin: auto;
-    border-radius: 25px;
+    font-size: 70px;
 }
 
 .logo {
@@ -119,7 +69,7 @@ footer {
 .home .opinion {
     margin-bottom: 1.5em;
     display: grid;
-    grid-template-columns: 4fr;
+    grid-template-rows: 2fr;
     width: 100%;
     height: 100vh;
     gap: 20px;
@@ -132,42 +82,13 @@ footer {
 }
 
 .img2 {
-    width: 300px;
+    width: 250px;
     height: 300px;
 }
 
 .img22 {
-    width: 300px;
+    width: 250px;
     height: 300px;
-}
-
-.video {
-    width: auto;
-}
-
-.music-body {
-    gap: 1em;
-}
-
-.music-text {
-    background-color: rgba(240, 248, 255, 0.349);
-    border-radius: 20px;
-    margin: 10%;
-    padding: 8%;
-}
-
-.music-text-box {
-    padding: 5%;
-
-}
-
-.mus-info {
-    display: flex;
-    justify-content: center;
-    font-family: 'zen dots', cursive;
-    font-size: 16px;
-    word-spacing: 10px;
-    letter-spacing: 5px;
 }
 
 @media (min-width: 500px) {
@@ -183,7 +104,7 @@ footer {
             'footer       footer';
     }
 
-    .home-main{
+    .home-main {
         padding-top: 100px;
         padding-bottom: 100px;
     }
@@ -201,8 +122,8 @@ footer {
         padding: 6%;
     }
 
-    .home-text {
-        font-size: 25px;
+    .txt {
+        font-size:larger;
     }
 
     .txt-2 {
@@ -238,13 +159,13 @@ footer {
             'footer       footer';
     }
 
-    .home-main{
+    .home-main {
         padding-top: 10%;
         padding-bottom: 10%;
     }
 
-    .home-text {
-        font-size: 25px;
+    .txt {
+        font-size:x-large;
     }
 
     .home-h1 {
@@ -301,8 +222,12 @@ footer {
         font-size: 60px;
     }
 
-    .home-text {
-        font-size: 25px;
+    .home-main{
+        line-height:5;
+    }
+
+    .txt {
+        font-size:xx-large;
     }
 
     .txt-2 {
