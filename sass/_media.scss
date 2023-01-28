@@ -1,3 +1,8 @@
+@mixin sizes($width, $height){
+    width: $width;
+    height: $height;
+}
+
 @media (min-width:500px){
     .fig-img{
         grid-template-columns: 2fr 2fr;
@@ -7,8 +12,7 @@
         margin: 70% 10% 50% 1%;
     }
     .img2, .img22{
-        width: 325px;
-        height: 400px;
+        @include sizes(325px ,488px);
         border-radius: 5%;
     }
 }
@@ -17,8 +21,7 @@
         column-gap: 2%;
     }
     .img2, .img22{
-        width: 550px;
-        height: 600px;
+        @include sizes(550px ,825px);
         border-radius: 5%;
     }
     .img-txt{

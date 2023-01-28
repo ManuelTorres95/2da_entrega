@@ -1,0 +1,16 @@
+@mixin fonts($font, $size){
+    font-family: $font, sans-serif;
+    font-size: $size;
+}
+.main-opi{
+    background-color: rgba(245, 245, 245, 0.493);
+    border-radius: 15px;
+    margin: 10%;
+}
+.opi-size{
+    padding-bottom: 10%;
+}
+.opi-txt{
+    @include fonts('roboto', 16px);
+    letter-spacing: 1%;
+}
