@@ -76,9 +76,59 @@
 
 .contact-icon {
   aspect-ratio: 2/3;
-  width: 15%;
+  width: 50px;
+  height: 50px;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.contact-icon:hover {
+  transform: rotate(360deg);
+  transition-duration: 2s;
+}
+
+.contact {
+  display: flex;
+  grid-area: contact;
+  justify-content: space-around;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.contactame {
+  font-family: Zen Dots, sans-serif;
+  font-size: 16px;
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-template-areas: "header" "home-h1" "main-cont" "footer";
+}
+
+.contactme {
+  grid-area: h2;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.cont-txt {
+  background-color: rgba(255, 255, 255, 0.332);
+  border-radius: 5%;
+  padding: 5%;
+  margin: 5%;
+  grid-area: cont-txt;
+}
+
+.main-cont {
+  display: flex;
+  grid-area: main-cont;
+  flex-direction: column;
+  grid-template-areas: "h2" "contact" "cont-txt";
+}
+
+.lol {
+  font-family: roboto, sans-serif;
+  font-size: 16px;
 }
 
 .music-body {
@@ -179,7 +229,7 @@ a {
 }
 
 body {
-  background: rgb(29, 29, 29);
+  background: rgb(96, 142, 157);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -229,8 +279,7 @@ footer {
 }
 
 .home-h1:hover {
-  transition-property: all;
-  transition-duration: 2s;
+  transition: 0.3s;
   font-size: 70px;
 }
 
@@ -246,7 +295,7 @@ footer {
   line-height: 3;
 }
 
-.home .opinion {
+.home .opinion .contactame {
   margin-bottom: 1.5em;
   display: grid;
   grid-template-rows: 2fr;

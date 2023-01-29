@@ -14,7 +14,7 @@ a {
 }
 
 body {
-    background: rgb(29, 29, 29);
+    background: rgb(96, 142, 157);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -64,8 +64,7 @@ footer {
 }
 
 .home-h1:hover {
-    transition-property: all;
-    transition-duration: 2s;
+    transition: .3s;
     font-size: 70px;
 }
 
@@ -81,7 +80,7 @@ footer {
     line-height: 3;
 }
 
-.home .opinion {
+.home .opinion .contactame {
     margin-bottom: 1.5em;
     display: grid;
     grid-template-rows: 2fr;
