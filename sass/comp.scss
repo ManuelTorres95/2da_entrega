@@ -1,12 +1,16 @@
 @import "index";
 @import "images";
+@import "contact";
 @import "music";
 @import "media";
 @import "opinion";
 @import "normalize";
+
 a {
     text-decoration: none;
-    color: rgb(255, 218, 138)
+    color: rgb(255, 218, 138);
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
 
 body {
@@ -36,6 +40,16 @@ footer {
     display: flex;
     justify-content: space-between;
     grid-area: footer;
+}
+
+.na-colo {
+    display: block;
+    padding: .5rem 1rem;
+    color:rgb(255, 218, 138);
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
 
 .h1-box {
@@ -114,7 +128,7 @@ footer {
     }
 
     .txt {
-        font-size:larger;
+        font-size: larger;
     }
 
     .txt-2 {
@@ -156,7 +170,7 @@ footer {
     }
 
     .txt {
-        font-size:x-large;
+        font-size: x-large;
     }
 
     .home-h1 {
@@ -213,12 +227,12 @@ footer {
         font-size: 60px;
     }
 
-    .home-main{
-        line-height:5;
+    .home-main {
+        line-height: 5;
     }
 
     .txt {
-        font-size:xx-large;
+        font-size: xx-large;
     }
 
     .txt-2 {
