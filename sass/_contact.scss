@@ -1,22 +1,22 @@
-@mixin fonts($font, $size){
+@mixin fonts($font, $size) {
     font-family: $font, sans-serif;
     font-size: $size;
 }
 
-.contact-icon{
+.contact-icon {
     aspect-ratio: 2/3;
-    width:50px ;
+    width: 50px;
     height: 50px;
     object-fit: contain;
 }
 
-.contact-icon:hover{
+.contact-icon:hover {
     transform: rotate(360deg);
     transition-duration: 2s;
 
 }
 
-.contact{
+.contact {
     display: flex;
     grid-area: contact;
     justify-content: space-around;
@@ -24,20 +24,20 @@
     margin-bottom: 10%;
 }
 
-.contactame{
+.contactame {
     @include fonts(Zen Dots, 16px);
     display: grid;
     grid-template-columns: 2fr;
     grid-template-areas:
-    "header"
-    "home-h1"
-    "main-cont"
-    "footer";
+        "header"
+        "home-h1"
+        "main-cont"
+        "footer";
 
 
 }
 
-.contactme{
+.contactme {
     grid-area: h2;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -45,7 +45,7 @@
     font-size: 20px;
 }
 
-.cont-txt{
+.cont-txt {
     background-color: rgba(255, 255, 255, 0.332);
     border-radius: 5%;
     padding: 5%;
@@ -53,16 +53,16 @@
     grid-area: cont-txt;
 }
 
-.main-cont{
+.main-cont {
     display: flex;
     grid-area: main-cont;
     flex-direction: column;
     grid-template-areas:
-    "h2"
-    "contact"
-    "cont-txt";
+        "h2"
+        "contact"
+        "cont-txt";
 }
 
 .lol {
-    @include fonts(roboto,16px)
+    @include fonts(roboto, 16px)
 }
