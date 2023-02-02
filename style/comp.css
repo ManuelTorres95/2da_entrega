@@ -135,6 +135,12 @@
   gap: 1em;
 }
 
+.main-music {
+  background-image: url(../img/fonde-contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .music-text {
   background-color: rgba(240, 248, 255, 0.349);
   border-radius: 20px;
